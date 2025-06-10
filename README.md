@@ -23,7 +23,10 @@
 
 <br>
 
-## 📚 API 명세서
+### Swagger UI
+http://35.172.128.58:8080/swagger-ui/index.html
+
+## API 명세서
 
 <br>
 
@@ -47,8 +50,7 @@
 
 | Method | Endpoint                      | Description        |
 |:------:|:------------------------------|:-------------------|
-|  PATCH   | `http://35.172.128.58:8080/admin/users/{userId}/roles
-` | 사용자에게 관리자 권한 부여 |
+|  PATCH   | `http://35.172.128.58:8080/admin/users/{userId}/roles` | 사용자에게 관리자 권한 부여 |
 
 <br>
 
