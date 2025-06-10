@@ -6,7 +6,7 @@
 >
 > Swagger를 통해 API를 문서화하였고 EC2를 통해 배포까지 완료하였습니다.
 
-## 📱 Tech Stack
+## Tech Stack
 <br>
 
 <div align="center">
