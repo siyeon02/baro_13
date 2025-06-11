@@ -34,7 +34,7 @@ http://35.172.128.58:8080/swagger-ui/index.html
 
 | Method | Endpoint                   | Description   |
 |:------:|:---------------------------|:--------------|
-|  POST  | `http://35.172.128.58:8080/signup`    | 회원가입   |
+|  POST  | `http://54.172.85.50:8080/signup`    | 회원가입   |
 
 <br>
 
@@ -42,7 +42,7 @@ http://35.172.128.58:8080/swagger-ui/index.html
 
 | Method | Endpoint                           | Description         |
 |:------:|:-----------------------------------|:--------------------|
-|  POST  | `http://35.172.128.58:8080/login`  | 로그인하기         |
+|  POST  | `http://54.172.85.50:8080/login`  | 로그인하기         |
 
 <br>
 
@@ -50,7 +50,7 @@ http://35.172.128.58:8080/swagger-ui/index.html
 
 | Method | Endpoint                      | Description        |
 |:------:|:------------------------------|:-------------------|
-|  PATCH   | `http://35.172.128.58:8080/admin/users/{userId}/roles` | 사용자에게 관리자 권한 부여 |
+|  PATCH   | `http://54.172.85.50:8080/admin/users/{userId}/roles` | 사용자에게 관리자 권한 부여 |
 
 <br>
 
