@@ -24,7 +24,7 @@
 <br>
 
 ### Swagger UI
-http://35.172.128.58:8080/swagger-ui/index.html
+http://54.172.85.50:8080/swagger-ui/index.html
 
 ## API 명세서
 
