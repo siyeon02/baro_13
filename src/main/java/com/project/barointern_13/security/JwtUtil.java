@@ -26,7 +26,7 @@ public class JwtUtil {
         key = Keys.hmacShaKeyFor(secretKey.getBytes());
     }
 
-    // ✅ 토큰 생성
+    // 토큰 생성
     public String createToken(String username, Role role) {
         Date now = new Date();
         Date expiry = new Date(now.getTime() + TOKEN_VALID_TIME);
@@ -40,18 +40,18 @@ public class JwtUtil {
                 .compact();
     }
 
-    // ✅ 토큰에서 사용자명 추출
+    // 토큰에서 사용자명 추출
     public String extractUsername(String token) {
         return getClaims(token).getSubject();
     }
 
-    // ✅ 토큰에서 Role 추출
+    // 토큰에서 Role 추출
     public Role extractRole(String token) {
         String roleName = (String) getClaims(token).get("role");
         return Role.valueOf(roleName);
     }
 
-    // ✅ 토큰 유효성 검사
+    // 토큰 유효성 검사
     public boolean validateToken(String token) {
         try {
             getClaims(token); // 예외 없으면 유효함
@@ -61,7 +61,7 @@ public class JwtUtil {
         }
     }
 
-    // ✅ 내부용: Claims 추출
+    //Claims 추출
     private Claims getClaims(String token) {
         return Jwts.parserBuilder()
                 .setSigningKey(key)
